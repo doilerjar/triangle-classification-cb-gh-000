@@ -9,7 +9,7 @@ class Triangle
     @c = c 
   end
 
-  def kind(triangle)
+  def kind
     if @a != @b && @a != @c && @b != @c
       return :scalene
     elif @a == @b && @b == @c
